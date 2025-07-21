@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
   // Load down button
-  fetch("down-Button.html")
+  fetch("down-button.html")
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("down-button-placeholder").innerHTML = data;
