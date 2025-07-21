@@ -36,8 +36,9 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ### Available on:
 
-http://192.168.1.78:8081 (It points to your own computer only)
-http://127.0.0.1:8081 (You can use this address to view the site from other devices on the same network)
+Available on:
+http://192.168.1.78:8080
+http://127.0.0.1:8080
 
 http://192.168.1.78:8080 (use this to test on mobile) - the 192.168.1.78 is the IP address
 
