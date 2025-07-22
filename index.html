@@ -36,6 +36,8 @@
     <div id="navbar-placeholder"></div>
     <div id="down-button-placeholder"></div>
 
+    <div class="block lg:hidden">
+
     <div class="overflow-hidden">
       <!-- hero image for mobile -->
       <img
@@ -274,7 +276,10 @@
           cписок глав
         </h3>
       </div>
-
+          <!----calling the fotter--->
+    <div id="footer-placeholder" class="lg:hidden"></div>
+    <!----calling the fotter--->
+</div>
       <!-------------------------------------------FOOTER SVG------------------------------------------------>
       <!----------------------------the footer can go back here if any issues-------------------------------->
       <!-------------------------------------------END FOOTER ---------------------------------------------->
@@ -283,7 +288,8 @@
     <!-----------------  desktop ----------------->
     <!-----------------  desktop ----------------->
     <!-----------------  desktop ----------------->
-
+<!-- Desktop wrapper -->
+<div class="hidden lg:block"> 
     <!-- hero image for desktop -->
     <img
       src="images/desktop-images/GL_HeroPhoto_Desktop_withText.jpg"
@@ -292,7 +298,7 @@
     />
 
     <div
-      class="flex flex-col space-y-4 relative z-10 hidden lg:flex lg:-mt-[28rem] xl:-mt-[32rem] 2xl:-mt-[36rem]"
+      class="flex flex-col space-y-4 relative z-10 hidden lg:flex lg:-mt-[20rem] xl:-mt-[28rem] 2xl:-mt-[44rem]"
     >
       <!-- first SVG -->
       <div class="relative w-full max-w-full">
@@ -306,6 +312,9 @@
       <!-- Text container -->
       <div
         class="absolute inset-0 px-4 py-6 flex flex-col justify-center mx-auto text-center max-w-[70vw] xl:max-w-[60vw] 2xl:max-w-[50vw]"
+
+
+        
       >
         <h1
           class="font-bold italic leading-tight text-white"
@@ -320,13 +329,13 @@
           class="-mt-4 font-semibold italic leading-snug text-white mb-10"
           style="
             font-family: 'Playfair Display', serif;
-            font-size: clamp(160px, 10vw, 280px);
+            font-size: clamp(160px, 12vw, 300px);
           "
         >
           для себя
         </h2>
         <h3
-          class="mt-12 mb-0 leading-snug text-white italic mx-auto space-y-3"
+          class="mt-16 mb-8 leading-snug text-white italic mx-auto space-y-3"
           style="
             font-family: 'Roboto', sans-serif;
             font-size: clamp(30px, 2vw, 50px);
@@ -339,10 +348,10 @@
 
         <!-- Paragraphs -->
         <div
-          class="mt-16 leading-relaxed text-white space-y-3 mx-auto"
+          class="mt-24 leading-relaxed text-white space-y-14 mx-auto"
           style="
             font-family: 'Roboto', sans-serif;
-            font-size: clamp(20px, 1.5vw, 35px);
+            font-size: clamp(20px, 2vw, 40px);
             max-width: 100%;
           "
         >
@@ -368,12 +377,126 @@
         </div>
       </div>
     </div>
+    <div
 
-    <!-------------------------------------------should repeat the same code for desktop as on top for mobile ??? ---------------------------------------------->
+    >
+      <!-- second SVG desktop -->
+       <!-- Desktop SVG Section -->
 
-    <!----calling the fotter--->
-    <div id="footer-placeholder" class="lg:hidden"></div>
-    <!----calling the fotter--->
+<div class="relative w-full max-w-full">
+  <!-- Full-width SVG background -->
+  <img
+    src="images/desktop-images/Vector 329.svg"
+    alt="SVG background"
+    class="w-full h-auto"
+  />
+
+  <!-- Absolute text overlay -->
+  <div
+    class="absolute inset-0 flex flex-col items-center justify-center px-6 text-center text-white"
+  >
+    <!-- Short Quote -->
+    <p
+      class="italic leading-tight max-w-[60%] lg:max-w-[50%] text-[20px] lg:text-[2.5vw] xl:text-[2vw] 2xl:text-[1.8vw] mt-0"
+    >
+      Мы имеем возможность, именно возможность и уже наше дело
+      воспользоваться ею или нет.
+    </p>
+
+    <!-- Headings -->
+    <h2
+      class="mt-[5vw] font-bold italic leading-tight font-['Playfair_Display'] max-w-[60%] lg:max-w-[50%] text-[6.5vw] lg:text-[4vw] xl:text-[3.5vw] 2xl:text-[3vw]"
+    >
+      Про нашу
+    </h2>
+    <h2
+      class="-mt-[2vw] font-semibold italic leading-snug font-['Playfair_Display'] max-w-[60%] lg:max-w-[50%] text-[9vw] lg:text-[6vw] xl:text-[5vw] 2xl:text-[4.2vw]"
+    >
+      алию
+    </h2>
+
+    <!-- Paragraph Block -->
+    <div
+      class="mt-[2vw] max-w-[60%] lg:max-w-[50%] xl:max-w-[35%] text-[16px] lg:text-[1.1vw] xl:text-[1vw] 2xl:text-[1vw] leading-[1.6] font-['Roboto'] space-y-[1.8vw]"
+       
+    >
+      <p>
+        Что значит нашу? Это идея Маши - три женщины: мама, Маша и я напишут об
+        этом времени. А как же наша бабушка, ведь... А мы напишем за неё по ее
+        письмам. У меня есть ее письма к Томочке и Эрику (они прислали их мне по
+        моей просьбе) и письма к Игорю, которые я попросила вернуть. Томочка и
+        я не можем их читать - ревем и все тут.
+      </p>
+      <p>
+        Но тут деваться некуда. К тому же услышала вот такое определение
+        человека: “Человек - это животное, способное создавать новые тексты” Ну
+        что ж, вот и случай понять отношусь ли я к человекам.
+      </p>
+    </div>
+
+    <!-- Second Headings -->
+    <h2
+      class="mt-[4vw] font-bold italic leading-tight font-['Playfair_Display'] max-w-[60%] lg:max-w-[50%] text-[9vw] xl:text-[6vw] 2xl:text-[5vw]"
+    >
+      Вот они
+    </h2>
+    <h2
+      class="mt-0 font-semibold italic leading-snug font-['Playfair_Display'] max-w-[60%] lg:max-w-[50%] text-[3.5vw] xl:text-[2.8vw] 2xl:text-[2.2vw]"
+    >
+      эти три женщины
+    </h2>
+
+    <!-- Image -->
+    <div class="my-[4vw] w-[55vw] max-w-[60%] lg:max-w-[50%]">
+      <img
+        src="images/desktop-images/threeWomen-desktop.jpg"
+        alt="Три женщины, три поколения"
+        class="w-full h-auto shadow-lg"
+      />
+    </div>
+
+    <!-- Final Paragraph Block -->
+    <div
+   
+      class="mt-[2vw] max-w-[60%] lg:max-w-[50%] xl:max-w-[35%] text-[16px] lg:text-[1.1vw] xl:text-[1vw] 2xl:text-[1vw] leading-[1.6] font-['Roboto'] space-y-[1.8vw]"
+      
+      
+    >
+      <h3
+        class="italic text-[5vw] lg:text-[2vw] xl:text-[1.8vw] 2xl:text-[1.6vw] leading-tight"
+      >
+        Моя история разделена на четыре части:
+      </h3>
+      <p>
+        Первая глава рассказывает о внезапном, но мощном осознании, которое
+        пробудилось внутри меня и подтолкнуло к самому трудному выбору в моей
+        жизни: покинуть единственный дом, который я знала.
+      </p>
+      <p>
+        Вторая глава посвящена нашему новому началу в Израиле — жизни, полной
+        испытаний, но также чудес, красоты и открытий. Это была земля, где нам
+        пришлось строить всё с нуля, но каждый маленький шаг вперёд ощущался как
+        настоящая победа.
+      </p>
+      <p>
+        Третья глава принадлежит моей матери. Через её письма вы увидите наш
+        путь её глазами — её надежды, её страхи, её тихую силу, с которой она
+        встречала перемены, окружавшие нас.
+      </p>
+      <p>
+        И, наконец, последняя глава — это сборник маленьких историй, которые
+        рассказала моя дочь, — историй, порой забавных, порой трогательных, но
+        всегда наполненных духом ребёнка, который, несмотря ни на что,
+        находил в себе силы смеяться, мечтать и расти.
+      </p>
+      <p>Я рада поделиться своей историей с вами.</p>
+    </div>
+  </div>
+</div>
+
+    <!-------------------------------------------links ---------------------------------------------->
+
+
 
     <script src="navbar.js"></script>
     <script src="load-footer.js"></script>
